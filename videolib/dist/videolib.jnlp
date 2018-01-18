@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="videolib.jnlp">
+  <information>
+    <title>videolib</title>
+    <vendor>AVANTIKA GUPTA</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\ffmpeg-platform.jar" size="2229" download="eager" />
+    <jar href="lib\ffmpeg-windows-x86_64.jar" size="12434231" download="eager" />
+    <jar href="lib\ffmpeg.jar" size="236905" download="eager" />
+    <jar href="lib\javacpp.jar" size="329904" download="eager" />
+    <jar href="lib\javacv-platform.jar" size="2373" download="eager" />
+    <jar href="lib\javacv-windows-x86_64.jar" size="2127861" download="eager" />
+    <jar href="lib\javacv.jar" size="386571" download="eager" />
+    <jar href="lib\libfreenect-linux-armhf.jar" size="73857" download="eager" />
+    <jar href="lib\opencv-platform.jar" size="2229" download="eager" />
+    <jar href="lib\opencv-windows-x86_64.jar" size="13031603" download="eager" />
+    <jar href="lib\opencv.jar" size="748303" download="eager" />
+    <jar href="videolib.jar" size="31526" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="videolib" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="videolib.Videolib"  name="videolib" />
+  <update check="always"/>
+</jnlp>
